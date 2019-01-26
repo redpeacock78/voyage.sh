@@ -1,0 +1,34 @@
+title: Voyage.sh
+subtitle: 主に日々のなかで気になったことや学んだことを綴るページ
+description:
+keywords:
+author: Redpeacock78
+language: ja
+timezone: Asia/Tokyo
+
+url: http://redpeacock78.github.io
+root: /
+permalink: :category/:id/
+permalink_defaults:
+
+menu:
+    Home: /
+    Archives: /archives
+    Categories: /categories
+    Tags: /tags
+    rss: /atom.xml
+
+search:
+    insight: true
+
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  decodeEntities: false
+  anchor:
+  position: after
+  symbol: '#'
+  style: header-anchor
+
+theme: icarus

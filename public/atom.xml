@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Voyage.sh</title>
+  
+  <subtitle>主に日々のなかで気になったことや学んだことを綴るページ</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="https://pubsubhubbub.appspot.com" rel="hub"/>
+  <link href="http://redpeacock78.github.io/"/>
+  <updated>2019-01-28T14:35:53.397Z</updated>
+  <id>http://redpeacock78.github.io/</id>
+  
+  <author>
+    <name>Redpeacock78</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>西陣織の歴史と織機の発展</title>
+    <link href="http://redpeacock78.github.io/memo/history/YKhUSOdikK/"/>
+    <id>http://redpeacock78.github.io/memo/history/YKhUSOdikK/</id>
+    <published>2019-01-28T14:35:53.000Z</published>
+    <updated>2019-01-28T14:35:53.397Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;昔に書いた発表用の研究レポートの内容のまとめと備忘録。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="備忘録" scheme="http://redpeacock78.github.io/categories/memo/"/>
+    
+      <category term="歴史" scheme="http://redpeacock78.github.io/categories/memo/history/"/>
+    
+    
+      <category term="歴史" scheme="http://redpeacock78.github.io/tags/history/"/>
+    
+      <category term="京都" scheme="http://redpeacock78.github.io/tags/kyoto/"/>
+    
+      <category term="伝統産業" scheme="http://redpeacock78.github.io/tags/traditional-industry/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>平安神宮と内国勧業博覧会</title>
+    <link href="http://redpeacock78.github.io/memo/history/7BQQZ3irIi/"/>
+    <id>http://redpeacock78.github.io/memo/history/7BQQZ3irIi/</id>
+    <published>2019-01-26T09:22:54.000Z</published>
+    <updated>2019-01-26T09:22:55.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;大学のレポートやら何やらを書くために調べたことのまとめと備忘録。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="備忘録" scheme="http://redpeacock78.github.io/categories/memo/"/>
+    
+      <category term="歴史" scheme="http://redpeacock78.github.io/categories/memo/history/"/>
+    
+    
+      <category term="歴史" scheme="http://redpeacock78.github.io/tags/history/"/>
+    
+      <category term="京都" scheme="http://redpeacock78.github.io/tags/kyoto/"/>
+    
+      <category term="寺社" scheme="http://redpeacock78.github.io/tags/shrine-temple/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>公的文書と筆記具の関係性についての簡単な考察</title>
+    <link href="http://redpeacock78.github.io/memo/consideration/THbQmJw9Yb/"/>
+    <id>http://redpeacock78.github.io/memo/consideration/THbQmJw9Yb/</id>
+    <published>2019-01-26T04:56:30.000Z</published>
+    <updated>2019-01-26T05:40:19.825Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;過去書いた簡単な考察レポートのまとめと備忘録。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="備忘録" scheme="http://redpeacock78.github.io/categories/memo/"/>
+    
+      <category term="考察" scheme="http://redpeacock78.github.io/categories/memo/consideration/"/>
+    
+    
+      <category term="歴史" scheme="http://redpeacock78.github.io/tags/history/"/>
+    
+      <category term="法律" scheme="http://redpeacock78.github.io/tags/law/"/>
+    
+      <category term="文房具" scheme="http://redpeacock78.github.io/tags/stationery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>湯神社及び初子祭について</title>
+    <link href="http://redpeacock78.github.io/memo/history/RQ923qmryV/"/>
+    <id>http://redpeacock78.github.io/memo/history/RQ923qmryV/</id>
+    <published>2019-01-14T02:40:22.000Z</published>
+    <updated>2019-01-26T09:09:51.266Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;昔書いたレポート資料のまとめと備忘録。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="備忘録" scheme="http://redpeacock78.github.io/categories/memo/"/>
+    
+      <category term="歴史" scheme="http://redpeacock78.github.io/categories/memo/history/"/>
+    
+    
+      <category term="歴史" scheme="http://redpeacock78.github.io/tags/history/"/>
+    
+      <category term="寺社" scheme="http://redpeacock78.github.io/tags/shrine-temple/"/>
+    
+      <category term="愛媛" scheme="http://redpeacock78.github.io/tags/ehime/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>シェル芸で約数を表示させる方法</title>
+    <link href="http://redpeacock78.github.io/oneliner/5MHtkNH5L6/"/>
+    <id>http://redpeacock78.github.io/oneliner/5MHtkNH5L6/</id>
+    <published>2019-01-10T17:07:35.000Z</published>
+    <updated>2019-01-26T05:41:05.361Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;きっかけ&quot;&gt;&lt;a href=&quot;#きっかけ&quot; class=&quot;headerlink&quot; title=&quot;きっかけ&quot;&gt;&lt;/a&gt;きっかけ&lt;/h3&gt;&lt;p&gt;タイトルにある通りある時ふとある整数に対する約数の一覧が欲しくなった時があった。そこでシェル芸でできないか試行錯誤してみた。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="ワンライナー" scheme="http://redpeacock78.github.io/categories/oneliner/"/>
+    
+    
+      <category term="シェル芸" scheme="http://redpeacock78.github.io/tags/shellgei/"/>
+    
+  </entry>
+  
+</feed>

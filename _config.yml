@@ -68,9 +68,11 @@ tag_map:
   京都: kyoto
   愛媛: ehime
   寺社: shrine&temple
+  伝統産業: traditional-industry
   文房具: stationery
   法律: law
   私訳: my-translation
+  考察: consideration
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date

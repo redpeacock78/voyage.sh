@@ -1,5 +1,5 @@
 ---
 title: {{ title }}
-tig: ture
+toc: ture
 tags:
 ---

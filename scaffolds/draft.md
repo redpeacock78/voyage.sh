@@ -1,5 +1,5 @@
 ---
 title: {{ title }}
-toc: ture
-tags:
+toc: true
+tags: 
 ---

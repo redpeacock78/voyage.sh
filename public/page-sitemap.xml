@@ -8,22 +8,22 @@
     </url>
     
     <url>
-        <loc>http://redpeacock78.github.io/categories/</loc>
-        <lastmod>2019-01-10T18:26:38.763Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
         <loc>http://redpeacock78.github.io/tags/</loc>
-        <lastmod>2019-01-10T18:22:03.345Z</lastmod>
+        <lastmod>2019-09-10T20:21:40.302Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>http://redpeacock78.github.io/about/</loc>
-        <lastmod>2019-01-10T17:03:37.724Z</lastmod>
+        <lastmod>2019-09-10T20:21:40.187Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://redpeacock78.github.io/categories/</loc>
+        <lastmod>2019-09-10T20:21:40.187Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

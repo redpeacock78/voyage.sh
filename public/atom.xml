@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Voyage.sh</title>
-  
+  <icon>http://redpeacock78.github.io/icon.png</icon>
   <subtitle>主に日々のなかで気になったことや学んだことを綴るページ</subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="https://pubsubhubbub.appspot.com" rel="hub"/>
   <link href="http://redpeacock78.github.io/"/>
-  <updated>2019-01-28T14:35:53.397Z</updated>
+  <updated>2019-09-12T03:18:08.243Z</updated>
   <id>http://redpeacock78.github.io/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>京都造形芸術大学の名称変更についての所感</title>
+    <link href="http://redpeacock78.github.io/current-affairs/NrDMXOKDBi/"/>
+    <id>http://redpeacock78.github.io/current-affairs/NrDMXOKDBi/</id>
+    <published>2019-09-11T08:16:42.000Z</published>
+    <updated>2019-09-12T03:18:08.243Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;さて久々の更新です。大凡7ヶ月振りくらいじゃないでしょうか。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="時事" scheme="http://redpeacock78.github.io/categories/current-affairs/"/>
+    
+    
+      <category term="京都" scheme="http://redpeacock78.github.io/tags/kyoto/"/>
+    
+  </entry>
+  
+  <entry>
     <title>西陣織の歴史と織機の発展</title>
     <link href="http://redpeacock78.github.io/memo/history/YKhUSOdikK/"/>
     <id>http://redpeacock78.github.io/memo/history/YKhUSOdikK/</id>
     <published>2019-01-28T14:35:53.000Z</published>
-    <updated>2019-01-28T14:35:53.397Z</updated>
+    <updated>2019-09-10T20:21:40.186Z</updated>
     
     <summary type="html">
     
@@ -29,14 +50,15 @@
     
     </summary>
     
+    
       <category term="備忘録" scheme="http://redpeacock78.github.io/categories/memo/"/>
     
       <category term="歴史" scheme="http://redpeacock78.github.io/categories/memo/history/"/>
     
     
-      <category term="歴史" scheme="http://redpeacock78.github.io/tags/history/"/>
-    
       <category term="京都" scheme="http://redpeacock78.github.io/tags/kyoto/"/>
+    
+      <category term="歴史" scheme="http://redpeacock78.github.io/tags/history/"/>
     
       <category term="伝統産業" scheme="http://redpeacock78.github.io/tags/traditional-industry/"/>
     
@@ -47,7 +69,7 @@
     <link href="http://redpeacock78.github.io/memo/history/7BQQZ3irIi/"/>
     <id>http://redpeacock78.github.io/memo/history/7BQQZ3irIi/</id>
     <published>2019-01-26T09:22:54.000Z</published>
-    <updated>2019-01-26T09:22:55.000Z</updated>
+    <updated>2019-09-10T20:21:40.185Z</updated>
     
     <summary type="html">
     
@@ -55,14 +77,15 @@
     
     </summary>
     
+    
       <category term="備忘録" scheme="http://redpeacock78.github.io/categories/memo/"/>
     
       <category term="歴史" scheme="http://redpeacock78.github.io/categories/memo/history/"/>
     
     
-      <category term="歴史" scheme="http://redpeacock78.github.io/tags/history/"/>
-    
       <category term="京都" scheme="http://redpeacock78.github.io/tags/kyoto/"/>
+    
+      <category term="歴史" scheme="http://redpeacock78.github.io/tags/history/"/>
     
       <category term="寺社" scheme="http://redpeacock78.github.io/tags/shrine-temple/"/>
     
@@ -73,13 +96,14 @@
     <link href="http://redpeacock78.github.io/memo/consideration/THbQmJw9Yb/"/>
     <id>http://redpeacock78.github.io/memo/consideration/THbQmJw9Yb/</id>
     <published>2019-01-26T04:56:30.000Z</published>
-    <updated>2019-01-26T05:40:19.825Z</updated>
+    <updated>2019-09-10T20:21:40.185Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;過去書いた簡単な考察レポートのまとめと備忘録。&lt;/p&gt;
     
     </summary>
+    
     
       <category term="備忘録" scheme="http://redpeacock78.github.io/categories/memo/"/>
     
@@ -99,13 +123,14 @@
     <link href="http://redpeacock78.github.io/memo/history/RQ923qmryV/"/>
     <id>http://redpeacock78.github.io/memo/history/RQ923qmryV/</id>
     <published>2019-01-14T02:40:22.000Z</published>
-    <updated>2019-01-26T09:09:51.266Z</updated>
+    <updated>2019-09-10T20:21:40.186Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;昔書いたレポート資料のまとめと備忘録。&lt;/p&gt;
     
     </summary>
+    
     
       <category term="備忘録" scheme="http://redpeacock78.github.io/categories/memo/"/>
     
@@ -125,13 +150,14 @@
     <link href="http://redpeacock78.github.io/oneliner/5MHtkNH5L6/"/>
     <id>http://redpeacock78.github.io/oneliner/5MHtkNH5L6/</id>
     <published>2019-01-10T17:07:35.000Z</published>
-    <updated>2019-01-26T05:41:05.361Z</updated>
+    <updated>2019-09-10T20:21:40.184Z</updated>
     
     <summary type="html">
     
       &lt;h3 id=&quot;きっかけ&quot;&gt;&lt;a href=&quot;#きっかけ&quot; class=&quot;headerlink&quot; title=&quot;きっかけ&quot;&gt;&lt;/a&gt;きっかけ&lt;/h3&gt;&lt;p&gt;タイトルにある通りある時ふとある整数に対する約数の一覧が欲しくなった時があった。そこでシェル芸でできないか試行錯誤してみた。&lt;/p&gt;
     
     </summary>
+    
     
       <category term="ワンライナー" scheme="http://redpeacock78.github.io/categories/oneliner/"/>
     

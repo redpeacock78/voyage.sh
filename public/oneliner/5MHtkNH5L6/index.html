@@ -97,7 +97,7 @@
 
 
 <link rel="stylesheet" href="/css/style.css">
-</head>
+<link rel="stylesheet" href="/css/prism-atom-dark.css" type="text/css"></head>
 <body class="is-3-column">
     <nav class="navbar navbar-main">
     <div class="container">
@@ -113,19 +113,29 @@
             <div class="navbar-start">
                 
                 <a class="navbar-item"
-                href="/">Home</a>
+                href="/">
+                <i class="fas fa-angle-double-right"></i>
+                Home</a>
                 
                 <a class="navbar-item"
-                href="/archives">Archives</a>
+                href="/archives">
+                <i class="fas fa-angle-double-right"></i>
+                Archives</a>
                 
                 <a class="navbar-item"
-                href="/categories">Categories</a>
+                href="/categories">
+                <i class="fas fa-angle-double-right"></i>
+                Categories</a>
                 
                 <a class="navbar-item"
-                href="/tags">Tags</a>
+                href="/tags">
+                <i class="fas fa-angle-double-right"></i>
+                Tags</a>
                 
                 <a class="navbar-item"
-                href="/about">About</a>
+                href="/about">
+                <i class="fas fa-angle-double-right"></i>
+                About</a>
                 
             </div>
             
@@ -164,8 +174,10 @@
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
+            <i class="fas fa-calendar has-mr-7"></i>
                 <time class="level-item has-text-grey" datetime="2019-01-10T17:07:35.000Z">2019-01-11</time>
                 
+                <i class="fas fa-folder has-mr-7"></i>
                 <div class="level-item">
                 <a class="has-link-grey -link" href="/categories/oneliner/">ワンライナー</a>
                 </div>
@@ -181,7 +193,7 @@
             </div>
         </div>
         
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-bold">
             
                 シェル芸で約数を表示させる方法
             
@@ -190,7 +202,7 @@
             <h3 id="きっかけ"><a href="#きっかけ" class="headerlink" title="きっかけ"></a>きっかけ</h3><p>タイトルにある通りある時ふとある整数に対する約数の一覧が欲しくなった時があった。そこでシェル芸でできないか試行錯誤してみた。</p>
 <a id="more"></a>
 
-<h3 id="結果"><a href="#結果" class="headerlink" title="結果"></a>結果</h3><pre><code class="bash">$ yes 220 | head -n220 | awk &#39;{print $1/NR}&#39; | grep -vF --line-buffered . | tac
+<h3 id="結果"><a href="#結果" class="headerlink" title="結果"></a>結果</h3><pre class=" language-bash"><code class="language-bash">$ <span class="token function">yes</span> 220 <span class="token operator">|</span> <span class="token function">head</span> -n220 <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$1</span>/NR}'</span> <span class="token operator">|</span> <span class="token function">grep</span> -vF --line-buffered <span class="token keyword">.</span> <span class="token operator">|</span> tac
 1
 2
 4
@@ -205,7 +217,7 @@
 220</code></pre>
 <p>なんとか出来た。</p>
 <h3 id="解説"><a href="#解説" class="headerlink" title="解説"></a>解説</h3><p>まずyesで求めたい整数を出力してheadでその整数と同じ数だけの行を取得、</p>
-<pre><code class="bash">$ yes 10 | head -n10
+<pre class=" language-bash"><code class="language-bash">$ <span class="token function">yes</span> 10 <span class="token operator">|</span> <span class="token function">head</span> -n10
 10
 10
 10
@@ -217,7 +229,7 @@
 10
 10</code></pre>
 <p>次にawkを使ってそれぞれの行番号を使って出力された整数を割っていきます。</p>
-<pre><code class="bash">$ yes 10 | head -n10 | awk &#39;{print $1/NR}&#39;
+<pre class=" language-bash"><code class="language-bash">$ <span class="token function">yes</span> 10 <span class="token operator">|</span> <span class="token function">head</span> -n10 <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$1</span>/NR}'</span>
 10
 5
 3.33333
@@ -229,13 +241,13 @@
 1.11111
 1</code></pre>
 <p>そして小数点が含まれているものを除外するためにgrepの-v(パターンに一致しない行を表示)と-F(固定文字列の検索)を使います。(–line-bufferedはバッファさせないために指定しています。)</p>
-<pre><code class="bash">$ yes 10 | head -n220 | awk &#39;{print $1/NR}&#39; | grep -vF --line-buffered .
+<pre class=" language-bash"><code class="language-bash">$ <span class="token function">yes</span> 10 <span class="token operator">|</span> <span class="token function">head</span> -n220 <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$1</span>/NR}'</span> <span class="token operator">|</span> <span class="token function">grep</span> -vF --line-buffered <span class="token keyword">.</span>
 10
 5
 2
 1</code></pre>
 <p>最後にtacで逆順に表示すれば上から順に小→大の順に表示されます。</p>
-<pre><code class="bash">$ yes 10 | head -n220 | awk &#39;{print $1/NR}&#39; | grep -vF --line-buffered . | tac
+<pre class=" language-bash"><code class="language-bash">$ <span class="token function">yes</span> 10 <span class="token operator">|</span> <span class="token function">head</span> -n220 <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$1</span>/NR}'</span> <span class="token operator">|</span> <span class="token function">grep</span> -vF --line-buffered <span class="token keyword">.</span> <span class="token operator">|</span> tac
 1
 2
 5
@@ -244,6 +256,7 @@
 
         </div>
         
+        <i class="fas fa-tag has-mr-7"></i>
         <div class="level is-size-7 is-uppercase">
             <div class="level-start">
                 <div class="level-item">
@@ -558,7 +571,7 @@
         <li>
             <a class="level is-marginless" href="/archives/2019/09/">
                 <span class="level-start">
-                    <span class="level-item">九月 2019</span>
+                    <span class="level-item">2019/09</span>
                 </span>
                 <span class="level-end">
                     <span class="level-item tag">1</span>
@@ -569,7 +582,7 @@
         <li>
             <a class="level is-marginless" href="/archives/2019/01/">
                 <span class="level-start">
-                    <span class="level-item">一月 2019</span>
+                    <span class="level-item">2019/01</span>
                 </span>
                 <span class="level-end">
                     <span class="level-item tag">5</span>
@@ -844,7 +857,7 @@
         <li>
             <a class="level is-marginless" href="/archives/2019/09/">
                 <span class="level-start">
-                    <span class="level-item">九月 2019</span>
+                    <span class="level-item">2019/09</span>
                 </span>
                 <span class="level-end">
                     <span class="level-item tag">1</span>
@@ -855,7 +868,7 @@
         <li>
             <a class="level is-marginless" href="/archives/2019/01/">
                 <span class="level-start">
-                    <span class="level-item">一月 2019</span>
+                    <span class="level-item">2019/01</span>
                 </span>
                 <span class="level-end">
                     <span class="level-item tag">5</span>

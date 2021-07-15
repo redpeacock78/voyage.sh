@@ -45,6 +45,11 @@ highlight:
   auto_detect: false
   tab_replace:
 
+prism_plugin:
+  mode: 'preprocess'
+  theme: 'atom-dark'
+  line_number: false
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -77,6 +82,7 @@ tag_map:
   私訳: my-translation
   考察: consideration
   音楽: music
+  漫画: comic
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -142,5 +148,3 @@ toc:
     position: after
     symbol: '#'
     style: header-anchor
-
-

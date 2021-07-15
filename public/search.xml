@@ -47,9 +47,9 @@
       
         <tags>
             
-            <tag> 京都 </tag>
-            
             <tag> 歴史 </tag>
+            
+            <tag> 京都 </tag>
             
             <tag> 伝統産業 </tag>
             
@@ -78,9 +78,9 @@
       
         <tags>
             
-            <tag> 京都 </tag>
-            
             <tag> 歴史 </tag>
+            
+            <tag> 京都 </tag>
             
             <tag> 寺社 </tag>
             
@@ -157,7 +157,7 @@
       <link href="/oneliner/5MHtkNH5L6/"/>
       <url>/oneliner/5MHtkNH5L6/</url>
       
-        <content type="html"><![CDATA[<h3 id="きっかけ"><a href="#きっかけ" class="headerlink" title="きっかけ"></a>きっかけ</h3><p>タイトルにある通りある時ふとある整数に対する約数の一覧が欲しくなった時があった。そこでシェル芸でできないか試行錯誤してみた。</p><a id="more"></a><h3 id="結果"><a href="#結果" class="headerlink" title="結果"></a>結果</h3><pre><code class="bash">$ yes 220 | head -n220 | awk &#39;{print $1/NR}&#39; | grep -vF --line-buffered . | tac1245101120224455110220</code></pre><p>なんとか出来た。</p><h3 id="解説"><a href="#解説" class="headerlink" title="解説"></a>解説</h3><p>まずyesで求めたい整数を出力してheadでその整数と同じ数だけの行を取得、</p><pre><code class="bash">$ yes 10 | head -n1010101010101010101010</code></pre><p>次にawkを使ってそれぞれの行番号を使って出力された整数を割っていきます。</p><pre><code class="bash">$ yes 10 | head -n10 | awk &#39;{print $1/NR}&#39;1053.333332.521.666671.428571.251.111111</code></pre><p>そして小数点が含まれているものを除外するためにgrepの-v(パターンに一致しない行を表示)と-F(固定文字列の検索)を使います。(–line-bufferedはバッファさせないために指定しています。)</p><pre><code class="bash">$ yes 10 | head -n220 | awk &#39;{print $1/NR}&#39; | grep -vF --line-buffered .10521</code></pre><p>最後にtacで逆順に表示すれば上から順に小→大の順に表示されます。</p><pre><code class="bash">$ yes 10 | head -n220 | awk &#39;{print $1/NR}&#39; | grep -vF --line-buffered . | tac12510</code></pre><p>…ただこれがどんな場面で活躍するかは謎。</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="きっかけ"><a href="#きっかけ" class="headerlink" title="きっかけ"></a>きっかけ</h3><p>タイトルにある通りある時ふとある整数に対する約数の一覧が欲しくなった時があった。そこでシェル芸でできないか試行錯誤してみた。</p><a id="more"></a><h3 id="結果"><a href="#結果" class="headerlink" title="結果"></a>結果</h3><pre class=" language-bash"><code class="language-bash">$ <span class="token function">yes</span> 220 <span class="token operator">|</span> <span class="token function">head</span> -n220 <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$1</span>/NR}'</span> <span class="token operator">|</span> <span class="token function">grep</span> -vF --line-buffered <span class="token keyword">.</span> <span class="token operator">|</span> tac1245101120224455110220</code></pre><p>なんとか出来た。</p><h3 id="解説"><a href="#解説" class="headerlink" title="解説"></a>解説</h3><p>まずyesで求めたい整数を出力してheadでその整数と同じ数だけの行を取得、</p><pre class=" language-bash"><code class="language-bash">$ <span class="token function">yes</span> 10 <span class="token operator">|</span> <span class="token function">head</span> -n1010101010101010101010</code></pre><p>次にawkを使ってそれぞれの行番号を使って出力された整数を割っていきます。</p><pre class=" language-bash"><code class="language-bash">$ <span class="token function">yes</span> 10 <span class="token operator">|</span> <span class="token function">head</span> -n10 <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$1</span>/NR}'</span>1053.333332.521.666671.428571.251.111111</code></pre><p>そして小数点が含まれているものを除外するためにgrepの-v(パターンに一致しない行を表示)と-F(固定文字列の検索)を使います。(–line-bufferedはバッファさせないために指定しています。)</p><pre class=" language-bash"><code class="language-bash">$ <span class="token function">yes</span> 10 <span class="token operator">|</span> <span class="token function">head</span> -n220 <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$1</span>/NR}'</span> <span class="token operator">|</span> <span class="token function">grep</span> -vF --line-buffered <span class="token keyword">.</span>10521</code></pre><p>最後にtacで逆順に表示すれば上から順に小→大の順に表示されます。</p><pre class=" language-bash"><code class="language-bash">$ <span class="token function">yes</span> 10 <span class="token operator">|</span> <span class="token function">head</span> -n220 <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$1</span>/NR}'</span> <span class="token operator">|</span> <span class="token function">grep</span> -vF --line-buffered <span class="token keyword">.</span> <span class="token operator">|</span> tac12510</code></pre><p>…ただこれがどんな場面で活躍するかは謎。</p>]]></content>
       
       
       <categories>
